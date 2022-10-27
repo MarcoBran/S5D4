@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM traversing e animazioni JS</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div id="menu">
+        <button id="apri" onclick="apriMenu()">Apri</button>
+        <div id="dropdown-content">
+            <a href="home">Home</a>
+            <a href="#aboutus">Chi sono</a>
+            <a href="#contatti">Contatti</a>
+        </div>
+    </div>
+
+    <h1 id="title">Pagina Interattiva</h1>
+    <div id="bottoni"></div>
+     <button type="button" id="big" onclick="changeSize('100px')">grande</button>
+     <button type="button" id="color" onclick="changeColor('red')">colore</button>
+     <button type="button" id="up" onclick="changeCase('uppercase')">maiuscolo</button>
+     <button type="button" id="hidden" onclick="changeColor2('white')">nascondi</button>
+     <button type="button" id="show" onclick="changeColor('red')">mostrare</button>
+    </div>
+    <h2>LISTA DEGLI IMPEGNI GIORNALIERI</h2>
+
+    <ul id="lista">
+        <li>Lavare la macchina</li>
+        <li>Andare dal dentista</li>
+        <li>Palestra</li>
+        <li>Spesa</li>
+    </ul>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
